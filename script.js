@@ -13,53 +13,53 @@ const optionsBox = questionScreen.getElementsByClassName("options")[0];
 
 const questions = [
   {
-    question: "Question 1",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "What does HTML stand for?",
+    options: ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language"],
     answer: 1,
   },
   {
-    question: "Question 2",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "What does CSS stand for?",
+    options: ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style Sheets"],
     answer: 3,
   },
   {
-    question: "Question 3 ",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "What does JS stand for?",
+    options:  ["JavaServer", "JavaSockets", "JavaScript"],
     answer: 2,
   },
   {
-    question: "Question 4",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "What  is a function?",
+    options:  [" a statement that perfoms a task or calculates a value", " a  condtion"," a type of web api"],
     answer: 4,
   },
   {
-    question: "Question 5",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "what does var stand for",
+    options: ['vader','vacant','var'],
     answer: 1,
   },
   {
-    question: "Question 6 ",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "what does a event listener do",
+    options: ['it appends the element into the html','it creatse a new element','it deletes an element',' is a method in JavaScript that allows you to attach an event handler function to an HTML element, which means you can specify a function to run when a certain event occurs on that element.'],
     answer: 3,
   },
   {
-    question: "Question 7 ",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "what does prevent default do",
+    options: ['adds a defualt sa element', ' creates an element in the body','prevent default behaviors in  an element', 'it erases a default behavior'],
     answer: 2,
   },
   {
-    question: "Question 8",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "what are web Apis",
+    options: ['hig level programing language simlair to javascript','query selectors','web devolper tool', ' high-level scripting language built into browsers that allows you to implement functionality on web pages/apps',],
     answer: 3,
   },
   {
-    question: "Question 9",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: "what are variables used for",
+    options: ['to store element into as var','to create into a var', 'to break elements','to erase elements'],
     answer: 4,
   },
   {
-    question: "Question 10 ",
-    options: ["options 1", "options 2", "options 3", "options 4"],
+    question: " whhat is the confrim() method",
+    options: :['the confrim method prompts a message on the user screen','the confirm method displays a dialog box with a message, an OK button, and a Cancel button.', ' it logs a message to the console','it alerts the user if a condtion isnt meet'],
     answer: 4,
   }
 ];
