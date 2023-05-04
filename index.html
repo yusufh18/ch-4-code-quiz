@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="homeScreen">
+
+        <div>
+            <h2 id="header">Coding Quiz Challenge</h2>
+            <p id="ptag">Try to answer the following code related questions within the time limit keep in mind that incorect answers will penalize your score-time!!!</p>
+            <button id="btn">start Quiz</button>
+        </div>
+        <div id="quiz"></div>
+        <div id="score"></div>
+        <button id="submit-btn" style="display: none;">Submit</button>
+        <form id="initials-form">
+            <label for="initials">Enter your initials:</label>
+            <input type="text" id="initials" name="initials">
+            <button type="submit">Save Score</button>
+        </form>
+    </div>
+    <div id="question">
+        <h2 class="question-label"></h2>
+        <div class="options">
+
+        </div>
+        <div class="feedback">
+            <hr>
+            <p class="feedback-label">Correct!</p>
+        </div>
+    </div>
+    <div id="scoreBoard">
+        <h2>Quiz has ended</h2>
+        <p>You have answered <span class="correct-answers"></span> correctly out of <span class="total-questions"></span> questions.</p>
+        <button id="restart-quiz">Restart</button>
+        <button id="home-screen">Home Screen</button>
+    </div>
+
+</body>
+<script src="script.js" ></script>
+</html>
